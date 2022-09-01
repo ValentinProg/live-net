@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
-import "./HeroSection.css ";
+import './HeroSection.css'
 
 function HeroSection({
   lightBg,
@@ -63,3 +63,4 @@ function HeroSection({
 }
 
 export default HeroSection;
+
