@@ -1,6 +1,7 @@
 .home___hero-section {
     color: #fff;
     padding: 160px 0;
+    
 }
 
 .home___hero-row {
@@ -29,6 +30,7 @@
     max-width: 540px;
     padding-top: 0;
     padding-bottom: 60px;
+    margin-top: 60px;
 }
 
 .top-line {
