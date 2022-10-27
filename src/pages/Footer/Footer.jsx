@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from '../../Button';
+import { Button } from '../../components/Button/Button';
 import { Link } from 'react-router-dom';
 import {
   FaFacebook,
@@ -9,7 +9,7 @@ import {
   FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+import { MdBackup } from 'react-icons/md';
 
 function Footer() {
   return (
@@ -72,11 +72,11 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
-              LAVISH
+              <MdBackup className='navbar-icon' />
+              LiveNET
             </Link>
           </div>
-          <small className='website-rights'>LAVISH © 2022</small>
+          <small className='website-rights'> LiveNET © 2022</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link'

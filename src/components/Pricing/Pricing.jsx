@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // import { BsXDimondFill } from "react-icons/bs";
 import { GiCrystalize } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
-import { Button } from "./Button";
+import { Button } from "../Button/Button";
 import './Pricing.css'
 
 function Pricing() {

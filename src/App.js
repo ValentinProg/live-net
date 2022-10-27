@@ -1,11 +1,11 @@
 import "./App.css";
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/HomePage/Home";
-import Footer from "./components/pages/Footer/Footer";
-import Services from "./components/pages/Services/Services";
-import Products from "./components/pages/Products/Products";
-import SignUp from "./components/pages/SignUp/SignUp";
+import Home from "./pages/HomePage/Home";
+import Footer from "./pages/Footer/Footer";
+import Services from "./pages/Services/Services";
+import Products from "./pages/Products/Products";
+import SignUp from "./pages/SignUp/SignUp";
 
 function App() {
   return (
